@@ -4,7 +4,7 @@ import Carousel from 'styled-components'
 import styled from 'styled-components';
 import ArrowLeftOutlined from '@material-ui/icons/ArrowLeftOutlined';
 import ArrowRightOutlined from '@material-ui/icons/ArrowRightOutlined';
-import sliderItems from '../Data.js';
+import {sliderItems} from '../Data.js';
 
 
 const Container = styled.div`
