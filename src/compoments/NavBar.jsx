@@ -72,7 +72,7 @@ export const NavBar = () => {
         </Left>
 
         <Centre> <Typography variant="h5" className={classes.title}>
-          CHIAO
+          m&m
         </Typography>
         </Centre>
         <Right>
