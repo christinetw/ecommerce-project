@@ -121,7 +121,7 @@ const Product = () => {
       <Announcement />
       <Wrapper>
         <ImgContainer>
-          <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+          <Image src="https://static.zara.net/photos///2021/I/0/1/p/5252/283/400/2/w/1126/5252283400_1_1_1.jpg?ts=1624953016445" />
         </ImgContainer>
         <InfoContainer>
           <Title>Denim Jumpsuit</Title>
