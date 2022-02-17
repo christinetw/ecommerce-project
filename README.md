@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# about ecommerce-project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HTML5 and CSS3, styled-components, Flexbox
+React: Components, Props, Events, Hooks, Router, Axios
+Node & Express: Web API, Body Parser, File Upload, JWT
+MongoDB: Mongoose, Aggregation
+API test:postman
 
-## Available Scripts
+# Run Locally
+1. Clone repo
+$ git clone git@github.com/christinetw/ecommerce-project.git
+$ cd ecommerce-project
 
-In the project directory, you can run:
+2. Install MongoDB
+Download it from here: https://docs.mongodb.com/manual/administration/install-community/
 
-### `npm start`
+3. Run Backend
+$ cd server
+$ npm install
+$ npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Run Frontend
+# open new terminal
+$ cd my-app
+$ npm install
+$ npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Product Details
+When the user clicks on a product there should a page to show details about that product. This lesson is all about making an attractive details page.
+<img width="1389" alt="Screen Shot 2022-02-16 at 10 06 08 PM" src="https://user-images.githubusercontent.com/88121887/154397108-a84cc314-5f09-4293-84cd-fcda157c007b.png">### Shopping Cart Screen
+Shopping Cart is the heart of any e-commerce website. We focus on creating a user-friendly shopping cart using React.
+<img width="1417" alt="Screen Shot 2022-02-16 at 9 59 45 PM" src="https://user-images.githubusercontent.com/88121887/154396581-938e2928-94a1-412d-86de-d04a1e9156ef.png">
+### Sign In User&& Registration
+We need to register the user before redirecting them to the checkout. In this part, we will create forms for getting user info and save them in the database.
+<img width="1311" alt="Screen Shot 2022-02-16 at 9 59 04 PM" src="https://user-images.githubusercontent.com/88121887/154396496-8c546272-0e39-43b2-bc34-3b1580520c3f.png">
 
-### `npm test`
+<img width="1208" alt="Screen Shot 2022-02-16 at 9 59 23 PM" src="https://user-images.githubusercontent.com/88121887/154396551-abad6b3d-6e25-4557-9936-a238c806858f.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
